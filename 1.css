@@ -1,0 +1,172 @@
+*{margin:0;padding:0; }
+ 
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+.item{
+	float: left;
+	line-height: 40px;
+	padding: 0 10px;
+}
+.item a{
+	color: black;
+}
+.item a:hover {
+	color: green;
+}
+nav{
+	height: 40px;
+	width: 500px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin: auto;
+	
+	margin-top: 70px;
+}
+.hai{
+	padding-right: 220px;
+}
+.anhlogo{
+	position: absolute;
+	
+	
+} 
+.khoi1{
+	background: #f3eaea;
+	width: 100%;
+	
+	margin-top: 30px;
+}
+.khoi1 .phantren h2{
+	text-align: center;
+	font-size: 40px;
+	color: green;
+	padding-top: 85px;
+}
+.khoi1 .phantren p{
+	text-align: center;
+	font-size: 20px;
+	color: #040404;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+._motkhoianh{
+	margin-bottom: 30px;
+}
+._motkhoianh>h4{
+	color: blue;
+	font-size: 20px;
+	padding: 3px 0 4px 3px;
+	margin-bottom: 3px;
+}
+ ._motkhoianh>p{
+	font-size: 15px;
+	padding-bottom: 5px;
+ }
+.dongtext p{
+	text-align: center;
+	font-size: 17px;
+	padding-bottom: 30px;
+}
+.cot1>h3,.cot2>h3{
+	color: blue;
+	margin-top: 50px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.cot1{
+	padding-right: 15px;
+}
+.icon i{
+	display: inline-block;
+	
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: blue;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+.khoi3{
+	background: blue;
+	color: white;
+}
+.khoi3 h3{
+	font-size: 25px;
+	color: white;
+	padding: 5px;
+}
+.khoi3 input{
+	width: 100%;
+}
+.khoi3 textarea{
+	width: 100%;
+}
+.khoi3 button{
+	margin:10px 0 50px 0;
+	background: green;
+	color: white;
+	padding: 7px 14px;
+	border: green; 
+}
+@media (min-width: 480px) and (max-width: 699px)
+{
+	nav{
+		border: none;
+	}
+	.item{
+		display: none;
+	}
+	.anhlogo{
+		top: 9%;
+		left: 29%;
+	}
+	button{
+		width: 100%;
+	}
+	.phantren p{
+		display: none;
+	}
+	.phantren h2{
+		padding-bottom: 40px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 959px)
+{
+	.anhlogo{
+		left: 33%;
+		top: 9%;
+	}
+	.item a{
+		font-size: 12px;
+		padding-right: 8px;
+	}
+}
+
+@media (min-width: 960px) and (max-width: 1199px)
+{
+	.anhlogo{
+		left: 35.5%;
+		top: 8%;
+	}
+	.item{
+		padding: 0 5px;
+	}
+	.item a{
+		font-size: 12px;
+		padding-right: 20px;
+	}
+	.hai{
+	padding-right: 213px;
+}
+}
+@media (min-width: 1200px)
+{
+	.anhlogo{
+		left: 40.5%;
+	     top: 8%;}
+}	     
